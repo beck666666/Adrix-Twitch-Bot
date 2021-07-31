@@ -1,6 +1,6 @@
 
 require('dotenv').config();
-
+const comandos = require('./comandos.js')
 const tmi = require('tmi.js');
 
 const client = new tmi.Client({
@@ -10,17 +10,23 @@ const client = new tmi.Client({
 		secure: true
 	},
 	identity: {
-		username: process.env.TWITCH_BOT_USERNAME,
-		password: process.env.TWITCH_OAUTH_TOKEN
+		username: 'sadbeck',
+		password: 'oauth:s2riuh8e6i3pudia2guw1vxcbs8v9r'
 	},
 	channels: [ 'sadbeck' ]
 });
 client.connect().catch(console.error);
 
+
+
 client.on('message', (channel, tags, message, self) => {
 	if(self) return;
-	if(message.toLowerCase() === '!hello') {
-		client.say(channel, `@${tags.username}, opa iai parça`);
+
+	
+	if(comandos[message.toLowerCase()]) {
+		let randomNum = Math.floor(Math.random() * comandos[message.toLowerCase()].respostas.length);
+		let respondercomo=comandos[message.toLowerCase()].respostas[randomNum]
+		client.say(channel, respondercomo);
 	}
 
 });
