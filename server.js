@@ -10,8 +10,8 @@ const client = new tmi.Client({
 		secure: true
 	},
 	identity: {
-		username: 'sadbeck',
-		password: 'oauth:s2riuh8e6i3pudia2guw1vxcbs8v9r'
+		username: process.env.TWITCH_BOT_USERNAME,
+		password: process.env.TWITCH_OAUTH_TOKEN
 	},
 	channels: [ 'sadbeck' ]
 });
