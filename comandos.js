@@ -30,7 +30,8 @@ let comandos = {
     'sabe qual órgão público representa um anão infértil? um mini-istéril',
     'o velho desse anime é do balaco baco, metia uma faca nele sem dó',
     'um caipira chega na casa de um amigo que está assistindo TV e pergunta/ "E aí, firme?" o outro responde " não, futebor"',
-    ' qual a sobremesa favorita do esqueleto? ... OSSOrvete']
+    ' qual a sobremesa favorita do esqueleto? ... OSSOrvete',
+    'oque são 4 formigas amigas americanas? fourmigaskkkkk']
 },
 
     ola:{respostas: ['iai parça',
