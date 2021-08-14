@@ -58,7 +58,8 @@ client.on('message', (channel, tags, message, self,) => {
 		'o velho desse anime é do balaco baco, metia uma faca nele sem dó',
 		'um caipira chega na casa de um amigo que está assistindo TV e pergunta/ "E aí, firme?" o outro responde " não, futebor"',
 		' qual a sobremesa favorita do esqueleto? ... OSSOrvete',
-		'oque são 4 formigas amigas americanas? fourmigaskkkkk']},
+		'oque são 4 formigas amigas americanas? fourmigaskkkkk',
+		'mari nao tem abraço toc toc quem he ? nao eh mari']},
 		
 		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`]},
 
