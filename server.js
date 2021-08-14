@@ -59,7 +59,8 @@ client.on('message', (channel, tags, message, self,) => {
 		'um caipira chega na casa de um amigo que está assistindo TV e pergunta/ "E aí, firme?" o outro responde " não, futebor"',
 		' qual a sobremesa favorita do esqueleto? ... OSSOrvete',
 		'oque são 4 formigas amigas americanas? fourmigaskkkkk',
-		'mari nao tem abraço toc toc quem he ? nao eh mari']},
+		'mari nao tem abraço toc toc quem he ? nao eh mari',
+		'Sad vc sabe qual o brinquedo preferido dos gaúchos?é o carrinho bah tchê bah tchê']},
 		
 		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`]},
 
