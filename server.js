@@ -60,7 +60,8 @@ client.on('message', (channel, tags, message, self,) => {
 		' qual a sobremesa favorita do esqueleto? ... OSSOrvete',
 		'oque são 4 formigas amigas americanas? fourmigaskkkkk',
 		'mari nao tem abraço toc toc quem he ? nao eh mari',
-		'Sad vc sabe qual o brinquedo preferido dos gaúchos?é o carrinho bah tchê bah tchê']},
+		'Sad vc sabe qual o brinquedo preferido dos gaúchos?é o carrinho bah tchê bah tchê',
+		'quando vc se sentir velho entre em uma banheira com vinho... assim vc se sentira noVINHO']},
 		
 		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`]},
 
