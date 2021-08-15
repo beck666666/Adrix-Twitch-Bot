@@ -61,7 +61,10 @@ client.on('message', (channel, tags, message, self,) => {
 		'oque são 4 formigas amigas americanas? fourmigaskkkkk',
 		'mari nao tem abraço toc toc quem he ? nao eh mari',
 		'Sad vc sabe qual o brinquedo preferido dos gaúchos?é o carrinho bah tchê bah tchê',
-		'quando vc se sentir velho entre em uma banheira com vinho... assim vc se sentira noVINHO']},
+		'quando vc se sentir velho entre em uma banheira com vinho... assim vc se sentira noVINHO',
+		'um gordo me chamou de gostoso,só não sei se isso foi um elogio ou uma ameaça']},
+		
+		
 		
 		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`]},
 
