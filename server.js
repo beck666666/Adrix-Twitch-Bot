@@ -66,7 +66,7 @@ client.on('message', (channel, tags, message, self,) => {
 		
 		
 		
-		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`]},
+		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`,'aopa']},
 
 		{chamadas: ['vai beber agua', 'vai se hidratar'], respostas: [`💦💦VAI BEBE AGUA JOVEM DESOCUPADO 🤗💦💦`, `vai se hidratar, ta parecendo um difunto`]}
 
