@@ -31,7 +31,8 @@ let comandos = {
     'o velho desse anime é do balaco baco, metia uma faca nele sem dó',
     'um caipira chega na casa de um amigo que está assistindo TV e pergunta/ "E aí, firme?" o outro responde " não, futebor"',
     ' qual a sobremesa favorita do esqueleto? ... OSSOrvete',
-    'oque são 4 formigas amigas americanas? fourmigaskkkkk']
+    'oque são 4 formigas amigas americanas? fourmigaskkkkk',
+    'Quando chove antes das 18:30 as estradas ficam escorregadias, pq dps desse horário elas ficam escorreganoites']
 },
 
     ola:{respostas: ['iai parça',
