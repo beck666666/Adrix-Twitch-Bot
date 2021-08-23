@@ -138,11 +138,11 @@ let mens=message.toLowerCase()
  }
 if (ListasEspeciais.gameStat===3 && ListasEspeciais.pedraPapelTesoura.includes(message.toLowerCase())&&tags.username===ListasEspeciais.oponente1){
 	ListasEspeciais.op1jogada=message.toLowerCase()
-	client.deletemessage(tags.id)
+	client.deletemessage(channel,tags.id)
 }
 if (ListasEspeciais.gameStat===3 && ListasEspeciais.pedraPapelTesoura.includes(message.toLowerCase())&&tags.username===ListasEspeciais.oponente2){
 	ListasEspeciais.op2jogada=message.toLowerCase()
-	client.deletemessage(tags.id)
+	client.deletemessage(channel,tags.id)
 
 }
 if (ListasEspeciais.gameStat===3 && ListasEspeciais.op1jogada.length>3 && ListasEspeciais.op2jogada.length>3){
