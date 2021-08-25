@@ -66,11 +66,15 @@ client.on('message', (channel, tags, message, self,) => {
 		'sabe oq é uma foto de um burro suja? um burrão']},
 		
 		
+		{chamadas: ['rolarD20'], respostas: [`@${tags.username} rolou um 1 ⚀`, `@${tags.username} rolou um 2 ⚁`, `@${tags.username} rolou um 3 ⚂`, `@${tags.username} rolou um 4 ⚃`, `@${tags.username} rolou um 5 ⚄`, `@${tags.username} rolou um 6 ⚅`]},
 		
+		{chamadas: ['qual a musica'], respostas: [`a musica é: toca uma pra min, brinks, so não sei, pergunta pro streamer`]},
+				
+		{chamadas: ['caminhão'], respostas: [`ela roubou meu caminhão 🚚💨💨`, 'o @lugarios roubou meu caminhão 🚚💨💨']},
 		
+		{chamadas: ['adrix', 'botão', 'botao'], respostas: [`o adrix é um botão`, `o adrix é um botão, segundo a @cafecomaquarela ☕☕`]},
 		
-		
-		
+		{chamadas: ['docinho', 'doce'], respostas: [`🧁🧁🧁`, `@${tags.username} tome 🧁🧁🧁`,`🍫🍫🍫`, `@${tags.username} tome 🍫🍫🍫`,`🍬🍬🍬`, `@${tags.username} tome 🍬🍬🍬`,`🍮🍮🍮`, `@${tags.username} tome 🍮🍮🍮`,`🍭🍭🍭`, `@${tags.username} tome 🍭🍭🍭`, `@${tags.username} NÃO, tome um cafe ☕☕☕`]},
 		
 		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`,'aopa']},
 
