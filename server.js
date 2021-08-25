@@ -66,7 +66,7 @@ client.on('message', (channel, tags, message, self,) => {
 		'sabe oq é uma foto de um burro suja? um burrão']},
 		
 		
-		{chamadas: ['rolarD20'], respostas: [`@${tags.username} rolou um 1 ⚀`, `@${tags.username} rolou um 2 ⚁`, `@${tags.username} rolou um 3 ⚂`, `@${tags.username} rolou um 4 ⚃`, `@${tags.username} rolou um 5 ⚄`, `@${tags.username} rolou um 6 ⚅`]},
+		{chamadas: ['rolard6'], respostas: [`@${tags.username} rolou um 1 ⚀`, `@${tags.username} rolou um 2 ⚁`, `@${tags.username} rolou um 3 ⚂`, `@${tags.username} rolou um 4 ⚃`, `@${tags.username} rolou um 5 ⚄`, `@${tags.username} rolou um 6 ⚅`]},
 		
 		{chamadas: ['qual a musica'], respostas: [`a musica é: toca uma pra min, brinks, so não sei, pergunta pro streamer`]},
 				
@@ -78,7 +78,7 @@ client.on('message', (channel, tags, message, self,) => {
 		
 		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`,'aopa']},
 
-		{chamadas: ['vai beber agua', 'vai se hidratar'], respostas: [`💦💦VAI BEBE AGUA JOVEM DESOCUPADO 🤗💦💦`, `vai se hidratar, ta parecendo um difunto`]}
+		{chamadas: ['vai beber água', 'vai beber agua', 'vai se hidratar', 'água', 'bebe água', 'agua', 'bebe agua'], respostas: [`💦💦VAI BEBE AGUA JOVEM DESOCUPADO 🤗💦💦`, `vai se hidratar, ta parecendo um difunto`]}
 
 	//{chamadas: ['teste1', 'teste2'], respostas: [`comando`, `comando`]}
 	];
