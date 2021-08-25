@@ -63,7 +63,8 @@ client.on('message', (channel, tags, message, self,) => {
 		'Sad vc sabe qual o brinquedo preferido dos gaúchos?é o carrinho bah tchê bah tchê',
 		'quando vc se sentir velho entre em uma banheira com vinho... assim vc se sentira noVINHO',
 		'um gordo me chamou de gostoso,só não sei se isso foi um elogio ou uma ameaça',
-		'sabe oq é uma foto de um burro suja? um burrão']},
+		'sabe oq é uma foto de um burro suja? um burrão',
+		 ' Porque alargador doi? Porque ele alarga dor.']},
 		
 		
 		{chamadas: ['rolard6'], respostas: [`@${tags.username} rolou um 1 ⚀`, `@${tags.username} rolou um 2 ⚁`, `@${tags.username} rolou um 3 ⚂`, `@${tags.username} rolou um 4 ⚃`, `@${tags.username} rolou um 5 ⚄`, `@${tags.username} rolou um 6 ⚅`]},
