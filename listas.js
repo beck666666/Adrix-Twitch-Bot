@@ -1,5 +1,5 @@
 let ListasEspeciais={
-    streamersRecomendados: ['cafecomaquarela','roubandoalua','loubacklavoura','sadbeck','pedrocl2001','elwarart','wendymoon7','anaconesa','andyallex','dimiPim','rocketfalls','ilustreilustrador','estudiosuzume'
+    streamersRecomendados: ['cafecomaquarela','roubandoalua','vicrabisca','loubacklavoura','sadbeck','pedrocl2001','elwarart','wendymoon7','anaconesa','andyallex','dimiPim','rocketfalls','ilustreilustrador','estudiosuzume'
 ,'caravaggiobaiano','lampjor','choconiih'],
     oponente1:[],
     oponente2:[],
