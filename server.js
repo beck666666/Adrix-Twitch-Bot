@@ -76,7 +76,7 @@ client.on('message', (channel, tags, message, self,) => {
 		{chamadas: ['adrix', 'botão', 'botao'], respostas: [`o adrix é um botão`, `o adrix é um botão, segundo a @cafecomaquarela ☕☕`]},
 		
 		{chamadas: ['docinho', 'doce'], respostas: [`🧁🧁🧁`, `@${tags.username} tome 🧁🧁🧁`,`🍫🍫🍫`, `@${tags.username} tome 🍫🍫🍫`,`🍬🍬🍬`, `@${tags.username} tome 🍬🍬🍬`,`🍮🍮🍮`, `@${tags.username} tome 🍮🍮🍮`,`🍭🍭🍭`, `@${tags.username} tome 🍭🍭🍭`, `@${tags.username} NÃO, tome um cafe ☕☕☕`]},
-		
+		{chamadas: ['@sadbeck', 'sadbeck trouxa'], respostas: [`o sad é um trouxa`, `de fato ele é um trouxa`]},
 		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`,'aopa']},
 		{chamadas: ['@sadbeck trouxa', '@sadbeck'], respostas: [`de fato ele é trouxa`, `sim o @sadbeck é trouxa`]},
 		{chamadas: ['vai beber água', 'vai beber agua', 'vai se hidratar', 'água', 'bebe água', 'agua', 'bebe agua'], respostas: [`💦💦VAI BEBE AGUA JOVEM DESOCUPADO 🤗💦💦`, `vai se hidratar, ta parecendo um difunto`]}
