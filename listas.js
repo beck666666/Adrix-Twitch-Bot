@@ -1,6 +1,6 @@
 let ListasEspeciais={
     streamersRecomendados: ['cafecomaquarela','roubandoalua','vicrabisca','loubacklavoura','sadbeck','pedrocl2001','elwarart','wendymoon7','anaconesa','andyallex','dimiPim','rocketfalls','ilustreilustrador','estudiosuzume'
-,'caravaggiobaiano','lampjor','choconiih'],
+,'caravaggiobaiano','lampjor','choconiih','pl4y3r0ff'],
     oponente1:[],
     oponente2:[],
     gameStat:0,
