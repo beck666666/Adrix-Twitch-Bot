@@ -67,6 +67,7 @@ client.on('message', (channel, tags, message, self,) => {
 		 ' Porque alargador doi? Porque ele alarga dor.',
 		'seu nome é hugo? pq vc é hugostosao']},
 		
+		{chamadas: ['teste1', 'teste2'], respostas: [`1`, `1`,`1`, `1`,`2`, `3`,`4`, `5`,`6`, `7`,`8`, `9`,`10`, `11`,`12`, `13`,`14`, `15`,`16`, `17`,`18`, `19`,`20`]},
 		
 		{chamadas: ['rolard6'], respostas: [`@${tags.username} rolou um 1 ⚀`, `@${tags.username} rolou um 2 ⚁`, `@${tags.username} rolou um 3 ⚂`, `@${tags.username} rolou um 4 ⚃`, `@${tags.username} rolou um 5 ⚄`, `@${tags.username} rolou um 6 ⚅`]},
 		
