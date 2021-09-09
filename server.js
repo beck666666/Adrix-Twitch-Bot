@@ -67,6 +67,9 @@ client.on('message', (channel, tags, message, self,) => {
 		 ' Porque alargador doi? Porque ele alarga dor.',
 		'seu nome é hugo? pq vc é hugostosao']},
 		
+		
+		{chamadas: ['comandos especiais', '!comandos especiais'], respostas: [`o comando:!colocar foto PogChamp , este comando exige um emote no final ele vai colocar o emote que vc escolheu como seu avatar no chat da tela, tambem tem o comando para mudar as cores do overlay, esse comando so pode ser ultilizado com a recompensa de canal "destacar minha mensagem" e digitar uma cor valida, as cores validas são essas https://pt.wikipedia.org/wiki/Lista_de_cores digite o nome da cor com a primeira letra maiuscula e sem !!!`]}
+		
 		{chamadas: ['comandos', 'bot'], respostas: [`aqui esta alguns dos comandos: rolard20, rolard6, piada, instagram, discord, comandos especiais. Esses são apenas alguns dos meus comandos, e varios deles possuem variações tanto para chamar quando para as respostas, tambem exitem outros comandos secretos mas vcs vão ter que descobrir ai, se vira, exite tambem os comandos especiais da uma olhada neles ai`]},
 		
 		{chamadas: ['rolard20'], respostas: [`1`, `1`,`1`, `1`,`2`, `3`,`4`, `5`,`6`, `7`,`8`, `9`,`10`, `11`,`12`, `13`,`14`, `15`,`16`, `17`,`18`, `19`,`20`]},
