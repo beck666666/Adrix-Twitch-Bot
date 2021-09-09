@@ -67,7 +67,7 @@ client.on('message', (channel, tags, message, self,) => {
 		 ' Porque alargador doi? Porque ele alarga dor.',
 		'seu nome é hugo? pq vc é hugostosao']},
 		
-		{chamadas: ['comandos', 'bot'], respostas: [`aqui esta alguns dos comandos: rolard20, rolard6, piada, instagram, discord, comandos especiais------ esses são apenas alguns dos meus comandos, e vario deles possuem variações tanto para chamar ele quando para as respostas, tambem exitem outros mas vcs vão ter que descobrir ai, se vira, exite tambem os comandos especiais da uma olhada neles ai`]},
+		{chamadas: ['comandos', 'bot'], respostas: [`aqui esta alguns dos comandos: rolard20, rolard6, piada, instagram, discord, comandos especiais. Esses são apenas alguns dos meus comandos, e varios deles possuem variações tanto para chamar quando para as respostas, tambem exitem outros comandos secretos mas vcs vão ter que descobrir ai, se vira, exite tambem os comandos especiais da uma olhada neles ai`]},
 		
 		{chamadas: ['rolard20'], respostas: [`1`, `1`,`1`, `1`,`2`, `3`,`4`, `5`,`6`, `7`,`8`, `9`,`10`, `11`,`12`, `13`,`14`, `15`,`16`, `17`,`18`, `19`,`20`]},
 		
