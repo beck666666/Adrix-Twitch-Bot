@@ -67,6 +67,8 @@ client.on('message', (channel, tags, message, self,) => {
 		 ' Porque alargador doi? Porque ele alarga dor.',
 		'seu nome é hugo? pq vc é hugostosao']},
 		
+		{chamadas: ['comandos', 'bot'], respostas: [`aqui esta alguns dos comandos: rolard20, rolard6, piada, instagram, discord, comandos especiais------ esses são apenas alguns dos meus comandos, e vario deles possuem variações tanto para chamar ele quando para as respostas, tambem exitem outros mas vcs vão ter que descobrir ai, se vira, exite tambem os comandos especiais da uma olhada neles ai`]},
+		
 		{chamadas: ['rolard20'], respostas: [`1`, `1`,`1`, `1`,`2`, `3`,`4`, `5`,`6`, `7`,`8`, `9`,`10`, `11`,`12`, `13`,`14`, `15`,`16`, `17`,`18`, `19`,`20`]},
 		
 		{chamadas: ['rolard6'], respostas: [`@${tags.username} rolou um 1 ⚀`, `@${tags.username} rolou um 2 ⚁`, `@${tags.username} rolou um 3 ⚂`, `@${tags.username} rolou um 4 ⚃`, `@${tags.username} rolou um 5 ⚄`, `@${tags.username} rolou um 6 ⚅`]},
@@ -80,7 +82,7 @@ client.on('message', (channel, tags, message, self,) => {
 		{chamadas: ['docinho', 'doce'], respostas: [`🧁🧁🧁`, `@${tags.username} tome 🧁🧁🧁`,`🍫🍫🍫`, `@${tags.username} tome 🍫🍫🍫`,`🍬🍬🍬`, `@${tags.username} tome 🍬🍬🍬`,`🍮🍮🍮`, `@${tags.username} tome 🍮🍮🍮`,`🍭🍭🍭`, `@${tags.username} tome 🍭🍭🍭`, `@${tags.username} NÃO, tome um cafe ☕☕☕`]},
 		{chamadas: ['@sadbeck', 'sadbeck trouxa'], respostas: [`o sad é um trouxa`, `de fato ele é um trouxa`]},
 		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`,'aopa']},
-		{chamadas: ['@sadbeck trouxa', '@sadbeck'], respostas: [`de fato ele é trouxa`, `sim o @sadbeck é trouxa`]},
+		{chamadas: ['@sadbeck trouxa'], respostas: [`de fato ele é trouxa`, `sim o @sadbeck é trouxa`]},
 		{chamadas: ['vai beber água', 'vai beber agua', 'vai se hidratar', 'água', 'bebe água', 'agua', 'bebe agua'], respostas: [`💦💦VAI BEBE AGUA JOVEM DESOCUPADO 🤗💦💦`, `vai se hidratar, ta parecendo um difunto`]}
 
 	//{chamadas: ['teste1', 'teste2'], respostas: [`comando`, `comando`]}
