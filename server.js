@@ -4,14 +4,6 @@ require('dotenv').config();
 const tmi = require('tmi.js');
 const { oponente1, oponente2, gameStat } = require('./listas.js');
 const ListasEspeciais = require('./listas.js');
-let valordoparouimpar=0
-let parouiparstart=false
-
-
-
-
-
-
 
 
 const client = new tmi.Client({
@@ -154,31 +146,7 @@ for (let i = 0; i<quantidadeDeChamadasPorComando; i++)
  }
  
 
- //jogo par ou impar
-	if(message==='par ou impar iniciado'){
-		parouiparstart=true
-		client.say(channel, "iniciado")
-	}
-}
-	
-	if(parouiparstart==true){
-	if(isNaN(message)==false&&message<10&&message>0){
-		valordoparouimpar=parseInt(message)+parseInt(valordoparouimpar)
-		console.log(valordoparouimpar)
-	}
-	if(message==="acabar contagem"){
-		if(valordoparouimpar%2===0){
-			client.say(channel, "é par")
-		}
-		else{
-			client.say(channel, "é ímpar")
-		}
-		parouiparstart=false
-      		  valordoparouimpar=0
-	}
 
-}
- 
 //jogo pedra papel tesoura
 let mens=message.toLowerCase()
  if (ListasEspeciais.gameStat===1 && mens[0]==='*' && tags.username==='sadbeck'){
