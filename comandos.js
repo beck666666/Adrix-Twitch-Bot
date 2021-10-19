@@ -32,7 +32,8 @@ let comandos = {
     'um caipira chega na casa de um amigo que está assistindo TV e pergunta/ "E aí, firme?" o outro responde " não, futebor"',
     ' qual a sobremesa favorita do esqueleto? ... OSSOrvete',
     'oque são 4 formigas amigas americanas? fourmigaskkkkk',
-    'Quando chove antes das 18:30 as estradas ficam escorregadias, pq dps desse horário elas ficam escorreganoites']
+    'Quando chove antes das 18:30 as estradas ficam escorregadias, pq dps desse horário elas ficam escorreganoites',
+     'Será que o banheiro da Vic é um banheiro químico???']
 },
 
     ola:{respostas: ['iai parça',
