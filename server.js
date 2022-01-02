@@ -88,6 +88,9 @@ client.on('message', (channel, tags, message, self,) => {
 		{chamadas: ['@sadbeck', 'sadbeck trouxa'], respostas: [`o sad é um trouxa`, `de fato ele é um trouxa`]},
 		{chamadas: ['ola','opa','oi','iai','hello'], respostas: [`@${tags.username} iai parça`, `@${tags.username} opa cumpadi`,'aopa']},
 		{chamadas: ['@sadbeck trouxa'], respostas: [`de fato ele é trouxa`, `sim o @sadbeck é trouxa`]},
+		{chamadas: ['CRIATURA DO CHAT'], respostas: [`seguinte, vamos desenhar uma criatura aleatoria vc tem direito com base em 5 caracteristicas, tu tem o direito de escolher 3 dessas caracteristicas, o primeiro ou o segundo bicho, caracteristica especial, habitat e a vibe do desenho`]},
+		{chamadas: ['PERSONAGEM ALEATORIO'], respostas: [`preguiça de explicar mano`]},
+		{chamadas: ['THE BONE GAME'], respostas: [`sei la adivinha ai`, `seguinte, manda a foto de um cranio e vou tentar adivinhar qual é o animal enquanto desenhamos ele`,`seguinte, manda a foto de um cranio e vou tentar adivinhar qual é o animal enquanto desenhamos ele`]},
 		{chamadas: ['vai beber água', 'vai beber agua', 'vai se hidratar', 'água', 'bebe água', 'agua', 'bebe agua'], respostas: [`💦💦VAI BEBE AGUA JOVEM DESOCUPADO 🤗💦💦`, `vai se hidratar, ta parecendo um difunto`]}
 
 	//{chamadas: ['teste1', 'teste2'], respostas: [`comando`, `comando`]}
